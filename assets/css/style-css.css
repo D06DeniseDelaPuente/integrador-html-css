@@ -1,0 +1,29 @@
+.titulo__css{
+	text-align: center;
+	color:#e8e6e1;
+}
+
+.parrafo__css{
+	justify-content: space-around;
+	margin-left: 5rem;
+	margin-right: 5rem;
+	padding-top: 2rem;
+}
+
+.container__videos {
+  padding: 10px;}
+
+.video-container {
+  max-width: 100%;
+  margin-left: 45rem;
+	padding-bottom: 2rem;
+}
+
+video {
+  width: 100%;
+  height: auto;
+}
+.enlace{
+	margin-left: 30rem;
+	padding-top: 2rem;
+}

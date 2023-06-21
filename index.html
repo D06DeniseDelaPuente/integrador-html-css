@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Aprendemos HTML</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<script src="https://kit.fontawesome.com/26a61b9f72.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
+	<link rel="stylesheet" href="assets/css/style-nav.css">
+	<link rel="stylesheet" href="assets/css/style-banner.css">
+	<link rel="stylesheet" href="assets/css/style-html.css">
+	<link rel="stylesheet" href="assets/css/style-imagenVideo.css">
+	<link rel="stylesheet" href="assets/css/style-css.css">
+	<link rel="stylesheet" href="assets/css/footer.css">
+</head>
+<body>
+	<header class="cabecera" id="tope">
+		<img src="./assets/img/LOGO.png" alt="Logo" class="logo">
+			<nav class="menu">
+				<ul class="menu__lista">
+					<li class="menu__item" ><a class="menu__link activo" href="#html">html</a></li>
+						<li class="menu__item" ><a class="menu__link" href="#css">css</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!---------------banner---------------->
+	<section class="banner">
+		<img class="banner__imagen" src="assets/img/margarita (1).jpg" alt="campo de tulipanes">
+		
+		<h3 class="banner__titulo1">Hola, soy</h3>
+		<h1 class="banner__titulo2">DENISE DE LA PUENTE</h1>
+		<h2 class="banner__titulo3">¡Vamos aprender HTML y CSS!</h2>	
+	</section>
+	
+	<section class="acercaDe" id="html">	
+		<h2 class="acercaDe__titulo" ><span>¿Qué es HTML?</span></h2>
+				<div class="acercaDe__imagen__seccion">
+					<div class="acercaDe__info">
+					<img class="acercaDe__imagen" src="assets/img/HTML.png" alt="foto perfil"> 
+				
+				<div class="acercaDe__texto">
+					<h4><p>
+						HTML es un lenguaje de MAQUETADO o de ETIQUETAS.</p>
+						<p>Muchos lo confunden como un lenguaje de programación pero NO LO ES.</p>
+						<p>Se utiliza mayoritariamente para la creacion de páginas web o frontend de aplicaciones web.</p>
+						<p>Los navegadores se comunican mediante LENGUAJE HTML para mostrarnos el contenido de una página web.</p>	
+					</h4>
+				</div>
+				
+				<h2 class="acercaDe__titulo" ><span>Sintaxis básica</span></h2>
+					<img class="imagen__html" src="assets/img/sintaxis-basica (1).jpg" alt="sintaxis html">
+					</div>
+				</div>		
+	</section>
+	 <div class="enlaces">
+		<div class="container__enlaces">
+			<h2>HIPERVINCULOS o enlaces en HTML etiqueta A y TABLAS</h2>
+		</div>
+		<div class="section__enlaces">
+			<h4>
+				Los enlaces o hipervínculos, también llamados hipertextos son los textos o los objetos sobre los que podemos hacer clic para que nos lleven a otra parte del documento, a otra página web en el mismo sitio o a otra página de Internet, entre otras funciones.<br>
+				ENLACE EXTERNO: <br> <a href="https://developer.mozilla.org/es/docs/Web/HTML/Element/title" 
+				target="_blank">Developer.mozilla/web/html</a><br>
+				<br><a href="https://www.w3schools.com/html/html_images.asp" target="_blank">w3schools</a><br><br>
+
+				ENLACE INTERNO: en este caso me lleva a un sector del mismo documento, por ejemplo: <br>
+				<a class="proyecto__volver" href="#tope">Volver arriba</a>
+			</h4>
+		</div>
+	 </div>
+	 <p class="parrafo1y2">Con tablas podemos hacer por ejemplo esto:</p>
+	 <table>
+		<tr>
+			<th>Enlaces internos</th>
+			<th>Enlaces externos</th>
+		</tr>
+		<tr>
+			<td>
+				<div class="column-content">
+					<ul>
+						<li><a href="#seccion1">Enlace interno 1</a></li>
+						<li><a href="#seccion2">Enlace interno 2</a></li>
+					</ul>
+				</div>
+			</td>
+			<td>
+				<div class="column-content">
+					<ul>
+						<li><a href="https://www.ejemplo1.com">Enlace externo 1</a></li>
+						<li><a href="https://www.ejemplo2.com">Enlace externo 2</a></li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+	</table>
+
+	<div class="container">
+		<div class="section">
+			<h2 id="seccion1">Sección 1</h2>
+			<p>Contenido de la sección 1.</p>
+			<h2 id="seccion2">Sección 2</h2>
+			<p>Contenido de la sección 2.</p>
+		</div>
+	</div>
+	<p class="parrafo1y2"> Y también esto:</p>
+	<h2 class="titulo__table">
+		Características de los planetas
+	</h2>
+	 <table>
+		<thead>
+		<tr>
+		<th>Nombre</th>
+	 
+		<th>Diametro Relativo</th>
+	 
+		<th>Período orbital</th>
+	 
+		<th>Número de lunas</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr>
+		<td align="center">Mercurio</td>
+		<td align="center">0,382</td>
+		<td align="center">0,24 años</td>
+		<td align="center">0</td>
+		</tr>
+		<tr>
+		<td align="center">Venus</td>
+		<td align="center">0,949</td>
+		<td align="center">0,62 años</td>
+		<td align="center">0</td>
+		</tr>
+		<tr>
+		<td align="center">Tierra</td>
+		<td align="center">1</td>
+		<td align="center">1 año</td>
+		<td align="center">1</td>
+		</tr>
+	 
+		<tr>
+		<td align="center">Marte</td>
+		<td align="center">0,532</td>
+		<td align="center">1,88 años</td>
+		<td align="center">2</td>
+		</tr>
+		<tr>
+		<td align="center">Júpiter</td>
+		<td align="center">11,209</td>
+		<td align="center">11,86 años</td>
+		<td align="center">49</td>
+		</tr>
+	 
+		<tr>
+		<td align="center">Saturno</td>
+		<td align="center">9,449</td>
+		<td align="center">29,46 años</td>
+		<td align="center">52</td>
+		</tr>
+	 
+		<tr>
+		<td align="center">Urano</td>
+		<td align="center">4,007</td>
+		<td align="center">84,01 años</td>
+		<td align="center">27</td> 
+	 </tr>
+	 
+	 <tr>
+	 <td align="center">Neptuno</td>
+	 <td align="center">3,883</td>
+	 <td align="center">164,80 años</td>
+	 <td align="center">13</td>
+	 </tr>
+	 </tbody>
+	 <tfoot>
+	 <tr>
+	 </tr>
+	 </tfoot>
+	 </table>
+	</section>
+	<br>
+	<section>
+    <div>
+			<h2 class="titulo__imagVideo">Imágenes y videos</h2>
+		</div>
+		<div>
+			<h4 class="texto__imagVideo">
+				Las imágenes pueden mejorar el diseño y la apariencia de una página web.<br></h4> 
+				<br>
+				<img class="imagen__imagVideo" src="assets/img/tiger.jpg" alt="tigres">
+				<h3 class="subtitulo"><b></b>Sintaxis de imágenes en HTML</b></h3>
+				<h4 class="text__subtitulo">La etiqueta HTML se utiliza para incrustar una imagen en una página web.	
+				La <img>etiqueta está vacía, solo contiene atributos y no tiene una etiqueta de cierre.
+				
+				La <img>etiqueta tiene dos atributos obligatorios:
+				
+				src: especifica la ruta a la imagen
+				alt: especifica un texto alternativo para la imagen
+			</h4>
+		</div>
+
+		<div class="container__videos">
+			<div>
+				<h2 class="subtitulo__videos">INSERTAR VIDEOS EN HTML</h2>
+				<h4><p class="parrafo__videos">Igual que vimos en el apartado de etiqueta img, tenemos a nuestra disposición el atributo src para indicar la ruta o archivo de video, el atributo width para indicarle un tamaño de ancho y el atributo height para indicar un tamaño de alto.<br>Indicar los valores de ancho y alto en el HTML es una buena práctica, porque reservamos el tamaño inicialmente aunque el video no se haya descargado, y así evitamos posibles saltos o cambios de tamaño que desembocan en comportamientos molestos e inesperados al cargar una web.</p></h4>
+			</div>
+			</div>
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/kN1XP-Bef7w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			</div>
+		
+	</section>
+	<section class="css" id="css">
+		<h2 class="titulo__css">Ahora, hablemos de CSS</h2>
+			<div>
+				<h4 class="parrafo__css">
+					CSS es un lenguaje de hojas de estilo utilizado para definir el aspecto y el formato de un documento HTML.<br> CSS se utiliza para describir cómo debe ser presentado el contenido de una página web, incluyendo el diseño, los colores, las fuentes, los tamaños de texto y otros aspectos visuales.
+					<br>CSS es el lenguaje que usamos para diseñar un documento HTML.<br>
+					CSS describe cómo deben mostrarse los elementos HTML.
+				</h4>
+			</div>
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/Mphm7SdOmf8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			</div>
+			<p class="enlace">No se olviden que aquí tambien pueden seguir aprendiendo en por ejemplo: <a href="https://www.w3schools.com/html/html_images.asp" target="_blank">w3schools</a><br><br></p>
+			<br>
+			<p ><a class="proyecto__volver" href="#tope">Volver arriba</a></p>
+	</section>
+	<footer class="footer">
+		<div class="footer__texto">
+			<small>&copy; DENISE DE LA PUENTE - 2023</b><br>Todos los Derechos Reservados</small>
+		</div>
+	</footer>
+</body>
+</html>
